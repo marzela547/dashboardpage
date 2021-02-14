@@ -229,6 +229,7 @@
     ctx = document.getElementById("bar-chart").getContext("2d");
     window.myBar = new Chart(ctx, config);
   })();
+  //tocan esto y les parto la madre
   function w3_open() {
     document.getElementById("main").style.marginLeft = "25%";
     document.getElementById("mySidebar").style.width = "25%";
@@ -236,6 +237,7 @@
     document.getElementById("openNav").style.display = 'none';
     document.getElementById("closeNav").style.display='inline-flex';
   }
+  //igual con este weones
   function w3_close() {
     document.getElementById("main").style.marginLeft = "0%";
     document.getElementById("mySidebar").style.display = "none";
