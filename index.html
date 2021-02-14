@@ -8,12 +8,226 @@
     <title>Dashboard v3 Don Papa</title>
     <link rel="icon" type="image/ico" href="img/logopapa.ico" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
   </head>
   <body class="text-gray-800 antialiased">
     <div id="root">
       <nav
-        class="w3-animate-left w3-sidebar md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-no-wrap md:overflow-hidden shadow-xl bg-white flex flex-wrap items-center justify-between relative md:w-64 z-10 py-4 px-6 md:none" id="mySidebar" style="display: none;">
+        class="w3-animate-left w3-sidebar md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:flex-row md:flex-no-wrap md:overflow-hidden shadow-xl bg-white flex flex-wrap items-center justify-between relative md:w-64 z-10 py-4 px-6 md:none mx-auto" id="mySidebar">
+        <ul class="md:flex-col md:min-w-full flex flex-col list-none">
+          <li class="items-center">
+            <a href="./index.html" class="text-xs uppercase py-3 font-bold block text-pink-500 hover:text-pink-600" >
+            <ion-icon name="speedometer-outline"></ion-icon>
+              Dashboard
+            </a>
+          </li>
+          <li class="items-center">
+            <a href="#Widgets" class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600">
+              <ion-icon  name="apps-outline"></ion-icon> Widgets </a>
+          </li>
+          <li class="items-center">
+            <a href="#LO" class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600">
+              <ion-icon name="documents-outline"></ion-icon>Layouts Options</a>
+          </li>
+          <li class="items-center">
+            <a href="#Charts" class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600">
+              <ion-icon name="pie-chart-outline"></ion-icon>Charts
+            </a>
+          </li>
+          <li class="items-center">
+            <a href="#UI" class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600">
+              UI Elements
+            </a>
+          </li>
+          <li class="items-center">
+            <a href="#Forms" class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600">
+              <ion-icon name="clipboard-outline"></ion-icon>Forms
+            </a>
+          </li>
+          <li class="items-center">
+            <a href="#Tables" class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600">
+              <ion-icon name="pie-chart-outline"></ion-icon>Tables
+            </a>
+          </li>
+        </ul>
+
+        <!-- Divider -->
+        <hr class="my-4 md:min-w-full" />
+        <!-- Heading -->
+        <h6
+          class="md:min-w-full text-gray-600 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
+        >
+          Auth Layout Pages
+        </h6>
+        <!-- Navigation -->
+
+        <ul
+          class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4"
+        >
+          <li class="items-center">
+            <a
+              href="#Login"
+              class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
+            >
+              <i class="fas fa-fingerprint text-gray-400 mr-2 text-sm"></i>
+              Login
+            </a>
+          </li>
+
+          <li class="items-center">
+            <a
+              href="#Register"
+              class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
+            >
+              <i
+                class="fas fa-clipboard-list text-gray-400 mr-2 text-sm"
+              ></i>
+              Register
+            </a>
+          </li>
+        </ul>
+
+        <!-- Divider -->
+        <hr class="my-4 md:min-w-full" />
+        <!-- Heading -->
+        <h6
+          class="md:min-w-full text-gray-600 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
+        >
+          No Layout Pages
+        </h6>
+        <!-- Navigation -->
+
+        <ul
+          class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4"
+        >
+          <li class="items-center">
+            <a
+              href="#Landing_page"
+              class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
+            >
+              <i class="fas fa-newspaper text-gray-400 mr-2 text-sm"></i>
+              Landing Page
+            </a>
+          </li>
+
+          <li class="items-center">
+            <a
+              href="#profile"
+              class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
+            >
+              <i class="fas fa-user-circle text-gray-400 mr-2 text-sm"></i>
+              Profile Page
+            </a>
+          </li>
+        </ul>
+
+        <!-- Divider -->
+        <hr class="my-4 md:min-w-full" />
+        <!-- Heading -->
+        <h6
+          class="md:min-w-full text-gray-600 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
+        >
+          Documentation
+        </h6>
+        <!-- Navigation -->
+        <ul
+          class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4"
+        >
+          <li class="inline-flex">
+            <a
+              href="https://www.creative-tim.com/learning-lab/tailwind/js/colors/notus"
+              target="_blank"
+              class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+            >
+              <i
+                class="fas fa-paint-brush mr-2 text-gray-400 text-base"
+              ></i>
+              Styles
+            </a>
+          </li>
+
+          <li class="inline-flex">
+            <a
+              href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus"
+              target="_blank"
+              class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+            >
+              <i class="fab fa-css3-alt mr-2 text-gray-400 text-base"></i>
+              CSS Components
+            </a>
+          </li>
+
+          <li class="inline-flex">
+            <a
+              href="https://www.creative-tim.com/learning-lab/tailwind/angular/overview/notus"
+              target="_blank"
+              class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+            >
+              <i class="fab fa-angular mr-2 text-gray-400 text-base"></i>
+              Angular
+            </a>
+          </li>
+
+          <li class="inline-flex">
+            <a
+              href="https://www.creative-tim.com/learning-lab/tailwind/js/overview/notus"
+              target="_blank"
+              class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+            >
+              <i class="fab fa-js-square mr-2 text-gray-400 text-base"></i>
+              Javascript
+            </a>
+          </li>
+
+          <li class="inline-flex">
+            <a
+              href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus"
+              target="_blank"
+              class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+            >
+              <i class="fab fa-react mr-2 text-gray-400 text-base"></i>
+              NextJS
+            </a>
+          </li>
+
+          <li class="inline-flex">
+            <a
+              href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus"
+              target="_blank"
+              class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+            >
+              <i class="fab fa-react mr-2 text-gray-400 text-base"></i>
+              React
+            </a>
+          </li>
+
+          <li class="inline-flex">
+            <a
+              href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/notus"
+              target="_blank"
+              class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+            >
+              <i class="fas fa-link mr-2 text-gray-400 text-base"></i>
+              Svelte
+            </a>
+          </li>
+
+          <li class="inline-flex">
+            <a
+              href="https://www.creative-tim.com/learning-lab/tailwind/vue/overview/notus"
+              target="_blank"
+              class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+            >
+              <i class="fab fa-vuejs mr-2 text-gray-400 text-base"></i>
+              VueJS
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <nav id="minimi">
+        <nav
+        class="md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-no-wrap md:overflow-hidden shadow-xl bg-white flex flex-wrap items-center justify-between relative md:w-64 z-10 py-4 px-6 md:none mx-auto">
         <div
           class="md:flex-col md:items-stretch md:min-h-full md:flex-no-wrap px-0 flex flex-wrap items-center justify-between w-full mx-auto" >
           <button class="cursor-pointer text-black opacity-50 md:hidden px-3 py-1 text-xl leading-none bg-transparent rounded border border-solid border-transparent" type="button" onclick="toggleNavbar('example-collapse-sidebar')" > 
@@ -297,6 +511,7 @@
           </div>
         </div>
       </nav>
+      </nav>
       <div class="relative md:ml-64 bg-gray-100" id="main" style="margin: auto;">
         <nav
           class="absolute top-0 left-0 w-full z-10 bg-transparent md:flex-row md:flex-no-wrap md:justify-start flex items-center p-4"
@@ -304,9 +519,11 @@
           <div
             class="w-full mx-autp items-center flex justify-between md:flex-no-wrap flex-wrap md:px-10 px-4"
           >
-          <button id="openNav" class="w3-button  w3-xlarge md:none" onclick="w3_open()">&#9776;</button>
-          <button id="closeNav" class="w3-bar-item w3-button w3-large md:none"
-  onclick="w3_close()" style="display: none;">&#9776;</button>
+          <div class="oculto">
+            <button id="openNav" class="w3-button  w3-xlarge  " onclick="w3_open()">&#9776;</button>
+          <button id="closeNav" class="W3-button w3-large " onclick="w3_close()" style="display: none;">&#9776;</button>
+          </div>
+          
             <a
               class="text-white text-sm uppercase hidden lg:inline-block font-semibold"
               href="./index.html"
@@ -866,5 +1083,11 @@
     ></script>
     <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
     <script src="js/controladores.js" ></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script>
+      $(function(){$("#closeNav").click();});
+      $(function(){visualViewport.addEventListener('resize', function(){$(function(){$("#closeNav").click();});});});
+      
+    </script>
   </body>
 </html>

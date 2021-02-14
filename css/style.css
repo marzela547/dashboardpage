@@ -1,0 +1,11 @@
+#minimi{
+    display: none;
+}
+@media screen and (	max-width: 768px){
+    .oculto,#mySidenav{
+        display: none;
+    }
+    #minimi{
+        display: block;
+    }
+}
