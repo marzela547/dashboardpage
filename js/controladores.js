@@ -229,3 +229,17 @@
     ctx = document.getElementById("bar-chart").getContext("2d");
     window.myBar = new Chart(ctx, config);
   })();
+  function w3_open() {
+    document.getElementById("main").style.marginLeft = "25%";
+    document.getElementById("mySidebar").style.width = "25%";
+    document.getElementById("mySidebar").style.display = "flex";
+    document.getElementById("openNav").style.display = 'none';
+    document.getElementById("closeNav").style.display='inline-flex';
+  }
+  function w3_close() {
+    document.getElementById("main").style.marginLeft = "0%";
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("closeNav").style.display='none';
+    document.getElementById("openNav").style.display = "inline-flex";
+  }
+  
