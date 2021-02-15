@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/d23e218303.js" crossorigin="anonymous"></script>
   </head>
   <body class="text-gray-800 antialiased">
     <div id="root">
@@ -282,9 +283,10 @@
               </div>
             </div>
             <div class=" mt-6 mb-4 md:hidden flex">
-              <div class="image">
+              <!--<div class="image">
                 <img src="img/papas.jpg" class="w-full rounded-full align-middle border-none shadow-lg" alt="User Image">
-              </div>
+              </div>-->
+          
               <div class="info">
                 <a href="#" >Papas</a>
               </div>
@@ -540,7 +542,7 @@
                 ></span>
                 <input
                   type="text"
-                  placeholder="Search here..."
+                  placeholder="Buscar"
                   class="px-3 py-3 placeholder-gray-400 text-gray-700 relative bg-white bg-white rounded text-sm shadow outline-none focus:outline-none focus:shadow-outline w-full pl-10"
                 />
               </div>
@@ -554,13 +556,33 @@
                 onclick="openDropdown(event,'user-dropdown')"
               >
                 <div class="items-center flex">
-                  <span
+                  <div class="icon">
+                    <button ></buttonS><i class="far fa-bell" style="width:50px; height: 50px; color: black;"></i>
+                   </button>
+                   </div>
+                   <div class="icon">
+                    <button><i class="far fa-envelope"  style="width:50px; height: 50px; color: black;" ></i>
+                    </i>
+                   </button>
+                   </div>
+                   <div class="icon">
+                    <button><i class=" fas fa-expand-arrows-alt"  style="width:50px; height: 50px; color: black;" ></i>
+                    </i>
+                   </button>
+                   </div>
+                   <div class="icon">
+                    <button><i class="fas fa-th-large"  style="width:50px; height: 50px; color: black;" ></i>
+                    </i>
+                   </button>
+                   </div>
+                 
+                <!--  <span
                     class="w-12 h-12 text-sm text-white bg-gray-300 inline-flex items-center justify-center rounded-full"
                     ><img
                       alt="..."
                       class="w-full rounded-full align-middle border-none shadow-lg"
                       src="../../assets/img/team-1-800x800.jpg"
-                  /></span>
+                  /></span>-->
                 </div>
               </a>
               <div
