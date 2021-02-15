@@ -7,6 +7,7 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <title>Dashboard v3 Don Papa</title>
     <link rel="icon" type="image/ico" href="img/logopapa.ico" />
+    <link rel="stylesheet" href="css/fontello.css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
@@ -601,12 +602,22 @@
                     <div class="relative w-full max-w-full flex-grow  ">
                       <h2 class="uppercase text-gray-200 mb-1 text-xs font-semibold h6">Overview</h2>
                       <h2 class="text-white text-xl font-semibold">
-                        Sales value
+                        Valores de Venta
                       </h2>
                     </div>
                   </div>
                 </div>
                 <div class="p-4 flex-auto">
+                  <p class="d-flex flex-column">
+                    <span class="text-white text-lg">820</span>
+                    <span class="text-white text-lg">Visitas</span>
+                  </p>
+                  <p class="ml-auto d-flex flex-column text-right">
+                    <span class="text-white">
+                      <i class="icon-flechita"></i> 33.1%
+                    </span>
+                    <span class="text-white">Ultima Semana</span>
+                  </p>
                   <!-- Chart -->
                   <div class="relative h-340-px">
                     <canvas id="line-chart"></canvas>
@@ -626,6 +637,17 @@
                   </div>
                 </div>
                 <div class="p-4 flex-auto">
+                  <p class="d-flex flex-column">
+                    <span class="text-bold text-lg"></span>
+                    <i class="icon-dolar"></i>18,230.00
+                    <span>Ventas</span>
+                  </p>
+                  <p class="ml-auto d-flex flex-column text-right">
+                    <span class="text-success">
+                      <i class="icon-flechita"></i> 33.1%
+                    </span>
+                    <span class="text-muted">Ultimo Mes</span>
+                  </p>
                   <!-- Chart -->
                   <div class="relative h-350-px">
                     <canvas id="bar-chart"></canvas>
