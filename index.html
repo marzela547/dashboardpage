@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <title>Dashboard v3 Don Papa</title>
+    <title>Dashboard Don Papa</title>
     <link rel="icon" type="image/ico" href="img/logopapa.ico" />
     <link rel="stylesheet" href="css/fontello.css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -19,49 +19,162 @@
         class="w3-animate-left w3-sidebar md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:flex-row md:flex-no-wrap md:overflow-hidden shadow-xl bg-white flex flex-wrap items-center justify-between relative md:w-64 z-10 py-4 px-6 md:none mx-auto" id="mySidebar">
         <ul class="md:flex-col md:min-w-full flex flex-col list-none">
           <li class="items-center">
-            <a href="./index.html" class="text-xs uppercase py-3 font-bold block text-pink-500 hover:text-pink-600" >
+              <a class="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0" href="../../index.html">
+                Don Papa 1
+              </a>
+          </li>
+          <hr>
+          <form class="mt-6 mb-4 md:hidden">
+            <div class="mb-3 pt-0">
+              <input type="text" placeholder="Search"
+                class="px-3 py-2 h-12 border border-solid border-gray-600 placeholder-gray-400 text-gray-700 bg-white rounded text-base leading-snug shadow-none outline-none focus:outline-none w-full font-normal"
+              />
+            </div>
+          </form>
+          <hr class="my-4 md:min-w-full" />
+          <li class="items-center text-lg combo" >
+            <a href="#" class="py-3 font-bold block text-pink-500 hover:text-pink-600" onclick="abrir(0,0)">
             <ion-icon name="speedometer-outline"></ion-icon>
               Dashboard
+              <ion-icon name="chevron-back-outline"></ion-icon>
             </a>
+            <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista abre">
+              <li class="items-center">
+                <a><ion-icon name="ellipse-outline"></ion-icon> Dashboard v1</a>
+              </li>
+              <li class="items-center">
+                <a><ion-icon name="ellipse-outline"></ion-icon> Dashboard v2</a>
+              </li>
+              <li class="items-center">
+                <a><ion-icon name="ellipse-outline"></ion-icon> Dashboard v3</a>
+              </li>
+            </ul>
           </li>
           <li class="items-center">
             <a href="#Widgets" class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600">
               <ion-icon  name="apps-outline"></ion-icon> Widgets </a>
           </li>
           <li class="items-center">
-            <a href="#LO" class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600">
-              <ion-icon name="documents-outline"></ion-icon>Layouts Options</a>
+            <a href="#LO" class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600" onclick="abrir(1,1)">
+              <ion-icon name="documents-outline"></ion-icon>Layouts Options <ion-icon name="chevron-back-outline"></ion-icon></a>
+              <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
+                <li class="items-center">
+                  <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Top Navigation</a>
+                </li>
+                <li class="items-center">
+                  <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Top Navigation + Sidbar</a>
+                </li>
+                <li class="items-center">
+                  <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Boxed</a>
+                </li>
+                <li class="items-center">
+                  <a><ion-icon name="ellipse-outline"></ion-icon> Fixed Sidebar</a>
+                </li>
+                <li class="items-center">
+                  <a><ion-icon name="ellipse-outline"></ion-icon> Fixed Sidebar + Custom Area</a>
+                </li>
+                <li class="items-center">
+                  <a><ion-icon name="ellipse-outline"></ion-icon> Fixed Navbar</a>
+                </li>
+                <li class="items-center">
+                  <a><ion-icon name="ellipse-outline"></ion-icon> Fixed Footer</a>
+                </li>
+                <li class="items-center">
+                  <a><ion-icon name="ellipse-outline"></ion-icon> Collapsed Sidebar</a>
+                </li>
+              </ul>
           </li>
           <li class="items-center">
             <a href="#Charts" class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600">
-              <ion-icon name="pie-chart-outline"></ion-icon>Charts
+              <ion-icon name="pie-chart-outline"></ion-icon>Charts <ion-icon name="chevron-back-outline"></ion-icon>
             </a>
+            <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
+              <li class="items-center">
+                <a href="#"><ion-icon name="ellipse-outline"></ion-icon>ChartsJS</a>
+              </li>
+              <li class="items-center">
+                <a href="#"><ion-icon name="ellipse-outline"></ion-icon>Flot</a>
+              </li>
+              <li class="items-center">
+                <a href="#"><ion-icon name="ellipse-outline"></ion-icon>Inline</a>
+              </li>
+              <li class="items-center">
+                <a><ion-icon name="ellipse-outline"></ion-icon>uPlot</a>
+              </li>
+            </ul>
           </li>
           <li class="items-center">
             <a href="#UI" class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600">
-              UI Elements
+              <ion-icon name="nutrition"></ion-icon> UI Elements <ion-icon name="chevron-back-outline"></ion-icon>
             </a>
+            <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
+              <li class="items-center">
+                <a href="#"><ion-icon name="ellipse-outline"></ion-icon> General</a>
+              </li>
+              <li class="items-center">
+                <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Icons</a>
+              </li>
+              <li class="items-center">
+                <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Buttons</a>
+              </li>
+              <li class="items-center">
+                <a><ion-icon name="ellipse-outline"></ion-icon> Sliders</a>
+              </li>
+              <li class="items-center">
+                <a><ion-icon name="ellipse-outline"></ion-icon> Modals & Alerts</a>
+              </li>
+              <li class="items-center">
+                <a><ion-icon name="ellipse-outline"></ion-icon> Navbar & Tabs</a>
+              </li>
+              <li class="items-center">
+                <a><ion-icon name="ellipse-outline"></ion-icon> Timeline</a>
+              </li>
+              <li class="items-center">
+                <a><ion-icon name="ellipse-outline"></ion-icon> Ribbons</a>
+              </li>
+            </ul>
           </li>
           <li class="items-center">
             <a href="#Forms" class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600">
-              <ion-icon name="clipboard-outline"></ion-icon>Forms
+              <ion-icon name="clipboard-outline"></ion-icon>Forms <ion-icon name="chevron-back-outline"></ion-icon>
             </a>
+            <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
+              <li class="items-center">
+                <a href="#"><ion-icon name="ellipse-outline"></ion-icon>General Elements</a>
+              </li>
+              <li class="items-center">
+                <a href="#"><ion-icon name="ellipse-outline"></ion-icon>Advanced Elements</a>
+              </li>
+              <li class="items-center">
+                <a href="#"><ion-icon name="ellipse-outline"></ion-icon>Editors</a>
+              </li>
+              <li class="items-center">
+                <a><ion-icon name="ellipse-outline"></ion-icon>Validation</a>
+              </li>
+            </ul>
           </li>
           <li class="items-center">
             <a href="#Tables" class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600">
-              <ion-icon name="pie-chart-outline"></ion-icon>Tables
+              <ion-icon name="tablet-landscape"></ion-icon>Tables <ion-icon name="chevron-back-outline"></ion-icon>
             </a>
+            <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
+              <li class="items-center">
+                <a href="#"><ion-icon name="ellipse-outline"></ion-icon>Simple Tables</a>
+              </li>
+              <li class="items-center">
+                <a href="#"><ion-icon name="ellipse-outline"></ion-icon>DataTables</a>
+              </li>
+              <li class="items-center">
+                <a href="#"><ion-icon name="ellipse-outline"></ion-icon>jsGrid</a>
+              </li>
+            </ul>
           </li>
         </ul>
-
-        <!-- Divider -->
-        <hr class="my-4 md:min-w-full" />
-        <!-- Heading -->
-        <h6
-          class="md:min-w-full text-gray-600 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
+        <q
+          class="md:min-w-full text-gray-600 text-sm uppercase font-bold block pt-1 pb-4 no-underline"
         >
-          Auth Layout Pages
-        </h6>
+          Examples
+      </q>
         <!-- Navigation -->
 
         <ul
