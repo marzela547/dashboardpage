@@ -153,8 +153,8 @@ let marca = document.getElementsByClassName("abre");
         datasets: [
           {
             label: new Date().getFullYear(),
-            backgroundColor: "#ed64a6",
-            borderColor: "#ed64a6",
+            backgroundColor: "#212529",
+            borderColor: "#212529",
             data: [1000, 2000, 3000, 2500, 2700, 2500, 3000],
             fill: false,
             barThickness: 22,

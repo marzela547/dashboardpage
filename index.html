@@ -16,361 +16,353 @@
   <body class="text-gray-800 antialiased">
     <div id="root">
       <nav
-        class="w3-animate-left w3-sidebar md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:flex-row md:flex-no-wrap md:overflow-hidden shadow-xl flex flex-wrap items-center justify-between relative md:w-64 z-10 py-4 px-6 md:none mx-auto" id="mySidebar" style="background-color: #374151 !important;">
+        class="w3-animate-left w3-sidebar md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:flex-row md:flex-no-wrap md:overflow-hidden shadow-xl flex flex-wrap items-center justify-between relative md:w-64 z-10 py-4 px-6 md:none mx-auto" id="mySidebar">
         <ul class="md:flex-col md:min-w-full flex flex-col list-none ">
           <li class="items-center">
-              <a class="text-gray-300 hover:text-gray-50 md:block text-left md:pb-2 mr-0 inline-block whitespace-no-wrap text-base font-bold p-4 px-0" href="../../index.html">
-                Don Papa 1
+              <a class="text-gray-600 hover:text-gray-900 md:block text-left md:pb-2 mr-0 inline-block whitespace-no-wrap text-base font-bold p-4 px-0" href="index.html">
+                Don Papa
               </a>
           </li>
-          <hr>
-          <form class="mt-6 mb-4 md:hidden">
-            <div class="mb-3 pt-0">
-              <input type="text" placeholder="Search"
-                class="px-3 py-2 h-12 border border-solid border-gray-600 placeholder-gray-400 text-gray-700 bg-white rounded text-base leading-snug shadow-none outline-none focus:outline-none w-full font-normal"
-              />
-            </div>
-          </form>
           <hr class="my-4 md:min-w-full" />
-          <li class="items-center text-base text-gray-300 hover:text-gray-50" >
-            <a href="#" class="py-3 block  hover:bg-gray-500 rounded-lg" onclick="abrir(0,0)">
+          <li class="items-center text-base text-gray-600 hover:text-gray-900" >
+            <a href="#" class="py-3 block  hover:bg-yellow-500 rounded-lg" onclick="abrir(0,0)">
             <ion-icon name="speedometer-outline"></ion-icon>
               Dashboard
               <ion-icon name="chevron-back-outline"></ion-icon>
             </a>
             <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista abre">
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Dashboard v1</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Dashboard v2</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Dashboard v3</a>
               </li>
             </ul>
           </li>
-          <li class="items-center text-base text-gray-300 hover:text-gray-50 hover:bg-gray-500 rounded-lg">
+          <li class="items-center text-base text-gray-600 hover:text-gray-900 hover:bg-yellow-500 rounded-lg">
             <a href="#Widgets" class="py-3 block">
               <ion-icon name="apps-sharp"></ion-icon> Widgets </a>
           </li>
-          <li class="items-center text-base text-gray-300 hover:text-gray-50">
-            <a href="#LO" class=" py-3 block hover:bg-gray-500 rounded-lg onclick="abrir(1,1)">
+          <li class="items-center text-base text-gray-600 hover:text-gray-900">
+            <a href="#LO" class=" py-3 block hover:bg-yellow-500 rounded-lg onclick="abrir(1,1)">
               <ion-icon name="documents-sharp"></ion-icon> Layouts Options <ion-icon name="chevron-back-outline"></ion-icon></a>
               <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
-                <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+                <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                   <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Top Navigation</a>
                 </li>
-                <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+                <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                   <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Top Navigation + Sidbar</a>
                 </li>
-                <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+                <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                   <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Boxed</a>
                 </li>
-                <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+                <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                   <a><ion-icon name="ellipse-outline"></ion-icon> Fixed Sidebar</a>
                 </li>
-                <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+                <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                   <a><ion-icon name="ellipse-outline"></ion-icon> Fixed Sidebar + Custom Area</a>
                 </li>
-                <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+                <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                   <a><ion-icon name="ellipse-outline"></ion-icon> Fixed Navbar</a>
                 </li>
-                <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+                <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                   <a><ion-icon name="ellipse-outline"></ion-icon> Fixed Footer</a>
                 </li>
-                <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+                <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                   <a><ion-icon name="ellipse-outline"></ion-icon> Collapsed Sidebar</a>
                 </li>
               </ul>
           </li>
           <li class="items-center text-base">
-            <a href="#Charts" class=" py-3 block text-gray-300 hover:text-gray-50 hover:bg-gray-500 rounded-lg">
+            <a href="#Charts" class=" py-3 block text-gray-600 hover:text-gray-900 hover:bg-yellow-500 rounded-lg">
               <ion-icon name="pie-chart-sharp"></ion-icon> Charts <ion-icon name="chevron-back-outline"></ion-icon>
             </a>
             <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon> ChartsJS</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Flot</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Inline</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> uPlot</a>
               </li>
             </ul>
           </li>
-          <li class="items-center text-base text-gray-300 hover:text-gray-50">
-            <a href="#UI" class=" py-3 block hover:bg-gray-500 rounded-lg">
+          <li class="items-center text-base text-gray-600 hover:text-gray-700">
+            <a href="#UI" class=" py-3 block hover:bg-yellow-500 rounded-lg">
               <ion-icon name="nutrition"></ion-icon> UI Elements <ion-icon name="chevron-back-outline"></ion-icon>
             </a>
             <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon> General</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Icons</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Buttons</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Sliders</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Modals & Alerts</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Navbar & Tabs</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Timeline</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Ribbons</a>
               </li>
             </ul>
           </li>
-          <li class="items-center text-base text-gray-300 hover:text-gray-50">
-            <a href="#Forms" class="py-3 block hover:bg-gray-500 rounded-lg">
+          <li class="items-center text-base text-gray-600 hover:text-gray-900">
+            <a href="#Forms" class="py-3 block hover:bg-yellow-500 rounded-lg">
               <ion-icon name="clipboard-outline"></ion-icon> Forms <ion-icon name="chevron-back-outline"></ion-icon>
             </a>
             <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon>General Elements</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon>Advanced Elements</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon>Editors</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon>Validation</a>
               </li>
             </ul>
           </li>
-          <li class="items-center text-base text-gray-300 hover:text-gray-50">
-            <a href="#Tables" class=" py-3 block hover:bg-gray-500 rounded-lg">
+          <li class="items-center text-base text-gray-600 hover:text-gray-900">
+            <a href="#Tables" class=" py-3 block hover:bg-yellow-500 rounded-lg">
               <ion-icon name="tablet-landscape"></ion-icon> Tables <ion-icon name="chevron-back-outline"></ion-icon>
             </a>
             <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Simple Tables</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon> DataTables</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon> jsGrid</a>
               </li>
             </ul>
           </li>
         </ul>
-        <p class="md:min-w-full text-base text-gray-300 hover:text-gray-50 block pt-1 pb-4 no-underline">
+        <p class="md:min-w-full text-base text-gray-600 hover:text-gray-900 block pt-1 pb-4 no-underline">
           Examples
         </p>
-        <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4  text-gray-300 hover:text-gray-50">
+        <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4  text-gray-600 hover:text-gray-900">
           <li class="items-center">
-            <a href="#Login" class=" py-3 block hover:bg-gray-500 rounded-lg">
+            <a href="#Calendar" class=" py-3 block hover:bg-yellow-500 rounded-lg">
               <ion-icon name="calendar-sharp"></ion-icon> Calendar
             </a>
           </li>
           <li class="items-center">
-            <a href="#Register" class="text-base text-gray-300 hover:text-gray-50 hover:bg-gray-500 rounded-lg py-3 block" >
+            <a href="#Gallery" class="text-base text-gray-600 hover:text-gray-900 hover:bg-yellow-500 rounded-lg py-3 block" >
               <ion-icon name="images-sharp"></ion-icon> Gallery
             </a>
           </li>
           <li class="items-center">
-            <a href="#Register" class="text-base text-gray-300 hover:text-gray-50 hover:bg-gray-500 rounded-lg py-3 block" >
+            <a href="#Kanban" class="text-base text-gray-600 hover:text-gray-900 hover:bg-yellow-500 rounded-lg py-3 block" >
               <ion-icon name="bookmark-sharp"></ion-icon> Kanban Board
             </a>
           </li>
-          <li class="items-center text-base text-gray-300 hover:text-gray-50">
-            <a href="#UI" class=" py-3 block hover:bg-gray-500 rounded-lg">
+          <li class="items-center text-base text-gray-600 hover:text-gray-900">
+            <a href="#Mailbox" class=" py-3 block hover:bg-yellow-500 rounded-lg">
               <ion-icon name="mail-outline"></ion-icon> Mailbox <ion-icon name="chevron-back-outline"></ion-icon>
             </a>
             <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Inbox</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Compose</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Read</a>
               </li>
             </ul>
           </li>
-          <li class="items-center text-base text-gray-300 hover:text-gray-50">
-            <a href="#UI" class=" py-3 block hover:bg-gray-500 rounded-lg">
+          <li class="items-center text-base text-gray-600 hover:text-gray-900">
+            <a href="#Pages" class=" py-3 block hover:bg-yellow-500 rounded-lg">
               <ion-icon name="document-text"></ion-icon> Pages <ion-icon name="chevron-back-outline"></ion-icon>
             </a>
             <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Invoice</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Profile</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon> E-commerce</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Projects</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Project Add</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Project Edit</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Project Detail</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Contacts</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> FAQ</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Contact Us</a>
               </li>
             </ul>
           </li>
-          <li class="items-center text-base text-gray-300 hover:text-gray-50">
-            <a href="#UI" class=" py-3 block hover:bg-gray-500 rounded-lg">
+          <li class="items-center text-base text-gray-600 hover:text-gray-900">
+            <a href="#Extras" class=" py-3 block hover:bg-yellow-500 rounded-lg">
               <ion-icon name="add-circle"></ion-icon> Extras <ion-icon name="chevron-back-outline"></ion-icon>
             </a>
             <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Login & Register v1<ion-icon name="chevron-back-outline"></ion-icon></a>
               <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
-                <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+                <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                   <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Login v1</a>
                 </li>
-                <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+                <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                   <a><ion-icon name="ellipse-outline"></ion-icon> Register v1</a>
                 </li>
-                <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+                <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                   <a><ion-icon name="ellipse-outline"></ion-icon> Forgot Password v1</a>
                 </li>
-                <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+                <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                   <a><ion-icon name="ellipse-outline"></ion-icon> Recover Password v1</a>
                 </li>
               </ul>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Login & Register v2<ion-icon name="chevron-back-outline"></ion-icon></a>
                 <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
-                  <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                     <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Login v2</a>
                   </li>
-                  <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                     <a><ion-icon name="ellipse-outline"></ion-icon> Register v2</a>
                   </li>
-                  <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                     <a><ion-icon name="ellipse-outline"></ion-icon> Forgot Password v2</a>
                   </li>
-                  <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                     <a><ion-icon name="ellipse-outline"></ion-icon> Recover Password v2</a>
                   </li>
                 </ul>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Lockscreen</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Legacy User Menu</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Language Menu</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Error 404</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Error 500</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Pace</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Blank Page</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a><ion-icon name="ellipse-outline"></ion-icon> Starter Page</a>
               </li>
             </ul>
           </li>
-          <li class="items-center text-base text-gray-300 hover:text-gray-50">
-            <a href="#UI" class=" py-3 block hover:bg-gray-500 rounded-lg">
+          <li class="items-center text-base text-gray-600 hover:text-gray-900">
+            <a href="#Search" class=" py-3 block hover:bg-yellow-500 rounded-lg">
               <ion-icon name="search"></ion-icon> Search <ion-icon name="chevron-back-outline"></ion-icon>
             </a>
             <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Simple Search</a>
               </li>
-              <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+              <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                 <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Enchanced</a>
               </li>
             </ul>
           </li>
         </ul>
-        <p class="md:min-w-full text-base text-gray-300 hover:text-gray-50 block pt-1 pb-4 no-underline">
+        <p class="md:min-w-full text-base text-gray-600 hover:text-gray-900 block pt-1 pb-4 no-underline">
           MISCELLANEOUS
         </p>
-        <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4 text-base text-gray-300 hover:text-gray-50" >
-          <li class="items-center hover:bg-gray-500 rounded-lg">
+        <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4 text-base text-gray-600 hover:text-gray-900" >
+          <li class="items-center hover:bg-yellow-500 rounded-lg">
             <a href="#Landing_page" class=" py-3 block">
               <ion-icon class="font-bold" name="ellipsis-horizontal"></ion-icon> Tabbed IFrame Plugin
             </a>
           </li>
-          <li class="items-center hover:bg-gray-500 rounded-lg">
+          <li class="items-center hover:bg-yellow-500 rounded-lg">
             <a href="#documentation" class=" py-3 block">
               <ion-icon name="document"></ion-icon> Documentation
             </a>
           </li>
         </ul>
-        <p class="md:min-w-full text-base text-gray-300 hover:text-gray-50 block pt-1 pb-4 no-underline">
-         <br>MULTI LEVEL EXAMPLE
+        <p class="md:min-w-full text-base text-gray-600 hover:text-gray-900 block pt-1 pb-4 no-underline">
+         MULTI LEVEL EXAMPLE
         </p>
-        <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4 text-base text-gray-300 hover:text-gray-50" >
-          <li class="inline-flex hover:bg-gray-500 rounded-lg">
+        <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4 text-base text-gray-600 hover:text-gray-900" >
+          <li class="inline-flex hover:bg-yellow-500 rounded-lg">
             <a href="#" class=" block mb-4 no-underline" >
               <ion-icon name="ellipse"></ion-icon> Level 1
             </a>
           </li>
-          <li class="inline-flex hover:bg-gray-500 rounded-lg">
+          <li class="inline-flex hover:bg-yellow-500 rounded-lg">
             <a href="#" class=" block mb-4 no-underline">
               <ion-icon name="ellipse"></ion-icon> Level 1 <ion-icon name="chevron-back-outline"></ion-icon>
             </a>
           </li>
-          <li class="inline-flex hover:bg-gray-500 rounded-lg">
+          <li class="inline-flex hover:bg-yellow-500 rounded-lg">
             <a href="#" class=" block mb-4 no-underline" >
               <ion-icon name="ellipse"></ion-icon> Level 1
             </a>
           </li>
         </ul>
-        <p class="md:min-w-full text-base text-gray-300 hover:text-gray-50 block pt-1 pb-4 no-underline">
+        <p class="md:min-w-full text-base text-gray-600 hover:text-gray-900 block pt-1 pb-4 no-underline">
           LABELS
          </p>
-         <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4 text-base text-gray-300 hover:text-gray-50">
-          <li class="inline-flex hover:bg-gray-500 rounded-lg">
+         <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4 text-base text-gray-600 hover:text-gray-900">
+          <li class="inline-flex hover:bg-yellow-500 rounded-lg">
             <a href="#" class=" block mb-4 no-underline" >
               <ion-icon class="text-red-600" name="ellipse-outline"></ion-icon> Important
             </a>
           </li>
-          <li class="inline-flex hover:bg-gray-500 rounded-lg">
+          <li class="inline-flex hover:bg-yellow-500 rounded-lg">
             <a href="#" class=" block mb-4 no-underline">
-              <ion-icon class="text-yellow-500" name="ellipse-outline"></ion-icon> Warning
+              <ion-icon class="text-yellow-200" name="ellipse-outline"></ion-icon> Warning
             </a>
           </li>
-          <li class="inline-flex hover:bg-gray-500 rounded-lg">
+          <li class="inline-flex hover:bg-yellow-500 rounded-lg">
             <a href="#" class=" block mb-4 no-underline" >
               <ion-icon class="text-green-500" name="ellipse-outline"></ion-icon> Informational
             </a>
@@ -385,7 +377,7 @@
           <button class="cursor-pointer text-black opacity-50 md:hidden px-3 py-1 text-xl leading-none bg-transparent rounded border border-solid border-transparent" type="button" onclick="toggleNavbar('example-collapse-sidebar')" > 
             <ion-icon size="large" name="menu-outline"></ion-icon> </button>
           <a class="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0" href="index.html">
-           Don Papa 2
+           Don Papa
           </a>
           <ul class="md:hidden items-center flex flex-wrap list-none">
             <li class="inline-block relative">
@@ -417,7 +409,7 @@
               </div>
             </li>
           </ul>
-          <div class=" text-base text-gray-300 hover:text-gray-50 md:flex md:flex-col md:items-stretch md:opacity-100 md:relative md:mt-4 md:shadow-none shadow absolute top-0 left-0 right-0 z-40 overflow-y-auto overflow-x-hidden h-auto items-center flex-1 rounded hidden bg-gray-600" id="example-collapse-sidebar">
+          <div class=" text-base text-gray-600 hover:text-gray-900 md:flex md:flex-col md:items-stretch md:opacity-100 md:relative md:mt-4 md:shadow-none shadow absolute top-0 left-0 right-0 z-40 overflow-y-auto overflow-x-hidden h-auto items-center flex-1 rounded hidden " id="example-collapse-sidebar">
             <div class="md:min-w-full md:hidden block pb-4 mb-4 border-b border-solid border-gray-300" >
               <div class="flex flex-wrap">
                 <div class="w-6/12">
@@ -448,233 +440,367 @@
               </div>
             </form>
             <hr class="my-4 md:min-w-full" />
-            <ul class="md:flex-col md:min-w-full flex flex-col list-none text-base text-gray-300 hover:text-gray-50">
-              <li class="items-center hover:bg-gray-500 rounded-lg">
+            <ul class="md:flex-col md:min-w-full flex flex-col list-none text-base text-gray-600 hover:text-gray-900">
+              <li class="items-center hover:bg-yellow-500 rounded-lg">
                 <a href="#" class=" py-3 block" onclick="abrir(0,0)">
                   <ion-icon name="speedometer-outline"></ion-icon>
                   Dashboard
                   <ion-icon name="chevron-back-outline"></ion-icon>
                 </a>
                 <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista abre">
-                  <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                     <a><ion-icon name="ellipse-outline"></ion-icon> Dashboard v1</a>
                   </li>
-                  <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                     <a><ion-icon name="ellipse-outline"></ion-icon> Dashboard v2</a>
                   </li>
-                  <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
                     <a><ion-icon name="ellipse-outline"></ion-icon> Dashboard v3</a>
                   </li>
                 </ul>
               </li>
-              <li class="items-center">
-                <a href="#Widgets" class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600">
-                  <ion-icon  name="apps-outline"></ion-icon> Widgets </a>
+              <li class="items-center text-base text-gray-600 hover:text-gray-900 hover:bg-yellow-500 rounded-lg">
+                <a href="#Widgets" class="py-3 block">
+                  <ion-icon name="apps-sharp"></ion-icon> Widgets </a>
               </li>
-              <li class="items-center">
-                <a href="#LO" class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600">
-                  <ion-icon name="documents-outline"></ion-icon>Layouts Options</a>
+              <li class="items-center text-gray-600 hover:text-gray-900 text-base">
+                <a href="#LO" class="hover:bg-yellow-500 rounded-lg py-3 block ">
+                  <ion-icon name="documents-sharp"></ion-icon> Layouts Options<ion-icon name="chevron-back-outline"></ion-icon></a>
+                  <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
+                    <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                      <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Top Navigation</a>
+                    </li>
+                    <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                      <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Top Navigation + Sidbar</a>
+                    </li>
+                    <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                      <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Boxed</a>
+                    </li>
+                    <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                      <a><ion-icon name="ellipse-outline"></ion-icon> Fixed Sidebar</a>
+                    </li>
+                    <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                      <a><ion-icon name="ellipse-outline"></ion-icon> Fixed Sidebar + Custom Area</a>
+                    </li>
+                    <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                      <a><ion-icon name="ellipse-outline"></ion-icon> Fixed Navbar</a>
+                    </li>
+                    <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                      <a><ion-icon name="ellipse-outline"></ion-icon> Fixed Footer</a>
+                    </li>
+                    <li class="items-center hover:bg-gray-500 rounded-lg p-2">
+                      <a><ion-icon name="ellipse-outline"></ion-icon> Collapsed Sidebar</a>
+                    </li>
+                  </ul>
               </li>
+              <li class="items-center text-base text-gray-600 hover:text-gray-900">
+                <a href="#Charts" class="py-3 block hover:bg-gray-500 rounded-lg  ">
+                  <ion-icon name="pie-chart-sharp"></ion-icon> Charts <ion-icon name="chevron-back-outline"></ion-icon>
+                </a>
+                <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon> ChartsJS</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Flot</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Inline</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> uPlot</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="items-center text-base text-gray-600 hover:text-gray-900">
+                <a href="#UI" class="py-3 block hover:bg-yellow-500 rounded-lg">
+                  <ion-icon name="nutrition"></ion-icon> UI Elements <ion-icon name="chevron-back-outline"></ion-icon>
+                </a>
+                <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon> General</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Icons</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Buttons</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> Sliders</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> Modals & Alerts</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> Navbar & Tabs</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> Timeline</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> Ribbons</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="items-center text-base text-gray-600 hover:text-gray-900">
+                <a href="#Forms" class="py-3 block hover:bg-yellow-500 rounded-lg">
+                  <ion-icon name="clipboard-outline"></ion-icon> Forms <ion-icon name="chevron-back-outline"></ion-icon>
+                </a>
+                <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon>General Elements</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon>Advanced Elements</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon>Editors</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon>Validation</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="items-center text-base text-gray-600 hover:text-gray-900">
+                <a href="#Tables" class="py-3 block hover:bg-yellow-500 rounded-lg">
+                  <ion-icon name="tablet-landscape"></ion-icon> Tables <ion-icon name="chevron-back-outline"></ion-icon>
+                </a>
+                <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Simple Tables</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon> DataTables</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon> jsGrid</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p class="md:min-w-full text-base text-gray-600 hover:text-gray-900 block pt-1 pb-4 no-underline">
+              Examples
+            </p>
+            <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4 text-gray-600 hover:text-gray-900">
               <li class="items-center">
-                <a href="#Charts" class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600">
-                  <ion-icon name="pie-chart-outline"></ion-icon>Charts
+                <a href="#Calendar" class="py-3 block hover:bg-yellow-500 rounded-lg">
+                  <ion-icon name="calendar-sharp"></ion-icon> Calendar
                 </a>
               </li>
               <li class="items-center">
-                <a href="#UI" class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600">
-                  UI Elements
+                <a href="#Gallery" class="text-base hover:bg-yellow-500 rounded-lg py-3 block text-gray-600 hover:text-gray-900" >
+                  <ion-icon name="images-sharp"></ion-icon> Gallery
                 </a>
               </li>
               <li class="items-center">
-                <a href="#Forms" class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600">
-                  <ion-icon name="clipboard-outline"></ion-icon>Forms
+                <a href="#Kanban" class="text-base text-gray-600 hover:text-gray-900 hover:bg-yellow-500 rounded-lg py-3 block" >
+                  <ion-icon name="bookmark-sharp"></ion-icon> Kanban Board
                 </a>
               </li>
-              <li class="items-center">
-                <a href="#Tables" class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600">
-                  <ion-icon name="pie-chart-outline"></ion-icon>Tables
+              <li class="items-center text-base text-gray-600 hover:text-gray-900">
+                <a href="#Mailbox" class=" py-3 block hover:bg-yellow-500 rounded-lg">
+                  <ion-icon name="mail-outline"></ion-icon> Mailbox <ion-icon name="chevron-back-outline"></ion-icon>
+                </a>
+                <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Inbox</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Compose</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Read</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="items-center text-base text-gray-600 hover:text-gray-900">
+                <a href="#Pages" class=" py-3 block hover:bg-yellow-500 rounded-lg">
+                  <ion-icon name="document-text"></ion-icon> Pages <ion-icon name="chevron-back-outline"></ion-icon>
+                </a>
+                <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Invoice</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Profile</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon> E-commerce</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> Projects</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> Project Add</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> Project Edit</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> Project Detail</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> Contacts</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> FAQ</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> Contact Us</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="items-center text-base text-gray-600 hover:text-gray-900">
+                <a href="#Extras" class=" py-3 block hover:bg-yellow-500 rounded-lg">
+                  <ion-icon name="add-circle"></ion-icon> Extras <ion-icon name="chevron-back-outline"></ion-icon>
+                </a>
+                <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Login & Register v1<ion-icon name="chevron-back-outline"></ion-icon></a>
+                  <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
+                    <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                      <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Login v1</a>
+                    </li>
+                    <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                      <a><ion-icon name="ellipse-outline"></ion-icon> Register v1</a>
+                    </li>
+                    <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                      <a><ion-icon name="ellipse-outline"></ion-icon> Forgot Password v1</a>
+                    </li>
+                    <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                      <a><ion-icon name="ellipse-outline"></ion-icon> Recover Password v1</a>
+                    </li>
+                  </ul>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Login & Register v2<ion-icon name="chevron-back-outline"></ion-icon></a>
+                    <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
+                      <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                        <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Login v2</a>
+                      </li>
+                      <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                        <a><ion-icon name="ellipse-outline"></ion-icon> Register v2</a>
+                      </li>
+                      <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                        <a><ion-icon name="ellipse-outline"></ion-icon> Forgot Password v2</a>
+                      </li>
+                      <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                        <a><ion-icon name="ellipse-outline"></ion-icon> Recover Password v2</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> Lockscreen</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> Legacy User Menu</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> Language Menu</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> Error 404</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> Error 500</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> Pace</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> Blank Page</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a><ion-icon name="ellipse-outline"></ion-icon> Starter Page</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="items-center text-base text-gray-600 hover:text-gray-900">
+                <a href="#Search" class=" py-3 block hover:bg-yellow-500 rounded-lg">
+                  <ion-icon name="search"></ion-icon> Search <ion-icon name="chevron-back-outline"></ion-icon>
+                </a>
+                <ul class="md:flex-col md:min-w-full flex flex-col list-none hidden lista ">
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Simple Search</a>
+                  </li>
+                  <li class="items-center hover:bg-yellow-500 rounded-lg p-2">
+                    <a href="#"><ion-icon name="ellipse-outline"></ion-icon> Enchanced</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p class="md:min-w-full text-base text-gray-600 hover:text-gray-900 block pt-1 pb-4 no-underline">
+              MISCELLANEOUS
+            </p>
+            <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4 text-base text-gray-600 hover:text-gray-900" >
+              <li class="items-center hover:bg-yellow-500 rounded-lg">
+                <a href="#Landing_page" class=" py-3 block">
+                  <ion-icon class="font-bold" name="ellipsis-horizontal"></ion-icon> Tabbed IFrame Plugin
+                </a>
+              </li>
+              <li class="items-center hover:bg-yellow-500 rounded-lg">
+                <a href="#documentation" class=" py-3 block">
+                  <ion-icon name="document"></ion-icon> Documentation
                 </a>
               </li>
             </ul>
-            <hr class="my-4 md:min-w-full" />
-            <h6
-              class="md:min-w-full text-gray-600 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
-            >
-              Auth Layout Pages
-            </h6>
-
-            <ul
-              class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4"
-            >
-              <li class="items-center">
-                <a
-                  href="#Login"
-                  class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
-                >
-                  <i class="fas fa-fingerprint text-gray-400 mr-2 text-sm"></i>
-                  Login
+            <p class="md:min-w-full text-base text-gray-600 hover:text-gray-900 block pt-1 pb-4 no-underline">
+              MULTI LEVEL EXAMPLE
+             </p>
+             <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4 text-base text-gray-600 hover:text-gray-900" >
+              <li class="inline-flex hover:bg-yellow-500 rounded-lg">
+                <a href="#" class=" block mb-4 no-underline" >
+                  <ion-icon name="ellipse"></ion-icon> Level 1
                 </a>
               </li>
 
-              <li class="items-center">
-                <a
-                  href="#Register"
-                  class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
-                >
-                  <i
-                    class="fas fa-clipboard-list text-gray-400 mr-2 text-sm"
-                  ></i>
-                  Register
+              <li class="inline-flex hover:bg-yellow-500 rounded-lg">
+                <a href="#" class=" block mb-4 no-underline">
+                  <ion-icon name="ellipse"></ion-icon> Level 1 <ion-icon name="chevron-back-outline"></ion-icon>
+                </a>
+              </li>
+
+              <li class="inline-flex hover:bg-yellow-500 rounded-lg">
+                <a href="#" class=" block mb-4 no-underline" >
+                  <ion-icon name="ellipse"></ion-icon> Level 1
                 </a>
               </li>
             </ul>
-            <hr class="my-4 md:min-w-full" />
-            <h6
-              class="md:min-w-full text-gray-600 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
-            >
-              No Layout Pages
-            </h6>
-
-            <ul
-              class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4"
-            >
-              <li class="items-center">
-                <a
-                  href="#Landing_page"
-                  class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
-                >
-                  <i class="fas fa-newspaper text-gray-400 mr-2 text-sm"></i>
-                  Landing Page
+            <p class="md:min-w-full text-base text-gray-600 hover:text-gray-900 block pt-1 pb-4 no-underline">
+              LABELS
+             </p>
+             <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4 text-base text-gray-600 hover:text-gray-900">
+              <li class="inline-flex hover:bg-yellow-500 rounded-lg">
+                <a href="#" class=" block mb-4 no-underline" >
+                  <ion-icon class="text-red-600" name="ellipse-outline"></ion-icon> Important
                 </a>
               </li>
-
-              <li class="items-center">
-                <a
-                  href="#profile"
-                  class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
-                >
-                  <i class="fas fa-user-circle text-gray-400 mr-2 text-sm"></i>
-                  Profile Page
+              <li class="inline-flex hover:bg-yellow-500 rounded-lg">
+                <a href="#" class=" block mb-4 no-underline">
+                  <ion-icon class="text-yellow-200" name="ellipse-outline"></ion-icon> Warning
                 </a>
               </li>
-            </ul>
-            <hr class="my-4 md:min-w-full" />
-            <h6
-              class="md:min-w-full text-gray-600 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
-            >
-              Documentation
-            </h6>
-            <ul
-              class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4"
-            >
-              <li class="inline-flex">
-                <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/js/colors/notus"
-                  target="_blank"
-                  class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-                >
-                  <i
-                    class="fas fa-paint-brush mr-2 text-gray-400 text-base"
-                  ></i>
-                  Styles
+              <li class="inline-flex hover:bg-yellow-500 rounded-lg">
+                <a href="#" class=" block mb-4 no-underline" >
+                  <ion-icon class="text-green-500" name="ellipse-outline"></ion-icon> Informational
                 </a>
               </li>
-
-              <li class="inline-flex">
-                <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus"
-                  target="_blank"
-                  class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-                >
-                  <i class="fab fa-css3-alt mr-2 text-gray-400 text-base"></i>
-                  CSS Components
-                </a>
-              </li>
-
-              <li class="inline-flex">
-                <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/angular/overview/notus"
-                  target="_blank"
-                  class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-                >
-                  <i class="fab fa-angular mr-2 text-gray-400 text-base"></i>
-                  Angular
-                </a>
-              </li>
-
-              <li class="inline-flex">
-                <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/js/overview/notus"
-                  target="_blank"
-                  class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-                >
-                  <i class="fab fa-js-square mr-2 text-gray-400 text-base"></i>
-                  Javascript
-                </a>
-              </li>
-
-              <li class="inline-flex">
-                <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus"
-                  target="_blank"
-                  class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-                >
-                  <i class="fab fa-react mr-2 text-gray-400 text-base"></i>
-                  NextJS
-                </a>
-              </li>
-
-              <li class="inline-flex">
-                <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus"
-                  target="_blank"
-                  class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-                >
-                  <i class="fab fa-react mr-2 text-gray-400 text-base"></i>
-                  React
-                </a>
-              </li>
-
-              <li class="inline-flex">
-                <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/notus"
-                  target="_blank"
-                  class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-                >
-                  <i class="fas fa-link mr-2 text-gray-400 text-base"></i>
-                  Svelte
-                </a>
-              </li>
-
-              <li class="inline-flex">
-                <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/vue/overview/notus"
-                  target="_blank"
-                  class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-                >
-                  <i class="fab fa-vuejs mr-2 text-gray-400 text-base"></i>
-                  VueJS
-                </a>
-              </li>
-            </ul>
+             </ul>
           </div>
         </div>
       </nav>
       </nav>
       <div class="relative md:ml-64 bg-gray-100" id="main" style="margin: auto;">
-        <nav
-          class="absolute top-0 left-0 w-full z-10 bg-transparent md:flex-row md:flex-no-wrap md:justify-start flex items-center p-4"
-        >
-          <div
-            class="w-full mx-autp items-center flex justify-between md:flex-no-wrap flex-wrap md:px-10 px-4"
-          >
+        <nav class="absolute top-0 left-0 w-full z-10 bg-transparent md:flex-row md:flex-no-wrap md:justify-start flex items-center p-4">
+          <div class="w-full mx-autp items-center flex justify-between md:flex-no-wrap flex-wrap md:px-10 px-4">
           <div class="oculto">
-            <button id="openNav" class="w3-button  w3-xlarge  " onclick="w3_open()">&#9776;</button>
-          <button id="closeNav" class="W3-button w3-large " onclick="w3_close()" style="display: none;">&#9776;</button>
+            <button id="openNav" class=" w3-button w3-xlarge" style="color: white !important;" onclick="w3_open()">&#9776;</button>
+          <button id="closeNav" class="text-white W3-button w3-xlarge " onclick="w3_close()" style="display: none;">&#9776;</button>
           </div>
             <a
               class="text-white text-sm uppercase hidden lg:inline-block font-semibold"
-              href="./index.html"
+              href="index.html"
               >Dashboard</a
             >
             <form
@@ -700,64 +826,47 @@
                 href="#action"
                 onclick="openDropdown(event,'user-dropdown')"
               >
-                <div class="items-center flex">
+                <div class="items-center flex text-white">
                   <div class="icon">
-                    <button ></buttonS><i class="far fa-bell" style="width:50px; height: 50px; color: black;"></i>
+                    <button ></buttonS><i class="far fa-bell" style="width:50px; height: 50px;"></i>
                    </button>
                    </div>
                    <div class="icon">
-                    <button><i class="far fa-envelope"  style="width:50px; height: 50px; color: black;" ></i>
+                    <button><i class="far fa-envelope"  style="width:50px; height: 50px;" ></i>
                     </i>
                    </button>
                    </div>
                    <div class="icon">
-                    <button><i class=" fas fa-expand-arrows-alt"  style="width:50px; height: 50px; color: black;" ></i>
+                    <button><i class=" fas fa-expand-arrows-alt"  style="width:50px; height: 50px;" ></i>
                     </i>
                    </button>
                    </div>
                    <div class="icon">
-                    <button><i class="fas fa-th-large"  style="width:50px; height: 50px; color: black;" ></i>
+                    <button><i class="fas fa-th-large"  style="width:50px; height: 50px;" ></i>
                     </i>
                    </button>
                    </div>
-                 
-                <!--  <span
-                    class="w-12 h-12 text-sm text-white bg-gray-300 inline-flex items-center justify-center rounded-full"
-                    ><img
-                      alt="..."
-                      class="w-full rounded-full align-middle border-none shadow-lg"
-                      src="../../assets/img/team-1-800x800.jpg"
-                  /></span>-->
                 </div>
               </a>
-              <div
-                class="hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48"
-                id="user-dropdown"
-              >
-                <a
-                  href="#action"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
-                  >Action</a
-                ><a
-                  href="#action"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
-                  >Another action</a
-                ><a
-                  href="#action"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
-                  >Something else here</a
-                >
+              <div class="hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48" id="user-dropdown" >
+                <a href="#action" class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800" >
+                  Action
+                </a >
+                <a href="#action" class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800">
+                  Another action
+                  </a>
+                <a href="#action" class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800" >
+                  Something else here
+                </a>
                 <div class="h-0 my-2 border border-solid border-gray-200"></div>
-                <a
-                  href="#action"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
-                  >Seprated link</a
-                >
+                <a href="#action" class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800">
+                  Seprated link
+                </a>
               </div>
             </ul>
           </div>
         </nav>
-        <div class="relative bg-yellow-600 md:pt-30 pb-20 pt-1 mb-0">
+        <div class="relative bg-yellow-500 md:pt-30 pb-20 pt-1 mb-0">
         </div>
 
         <div class="px-4 md:px-10 mx-auto pt-32  w-full -m-24   lg:h-1/8">
@@ -785,7 +894,6 @@
                     </span>
                     <span class="text-white">Ultima Semana</span>
                   </p>
-                  <!-- Chart -->
                   <div class="relative h-340-px">
                     <canvas id="line-chart"></canvas>
                   </div>
@@ -815,7 +923,6 @@
                     </span>
                     <span class="text-muted">Ultimo Mes</span>
                   </p>
-                  <!-- Chart -->
                   <div class="relative h-350-px">
                     <canvas id="bar-chart"></canvas>
                   </div>
@@ -850,146 +957,95 @@
                   </div>
                 </div>
                 <div class="block w-full overflow-x-auto">
-                  <!-- Projects table -->
-                  <table
-                    class="items-center w-full bg-transparent border-collapse"
-                  >
+                  <table class="items-center w-full bg-transparent border-collapse">
                     <thead>
                       <tr>
-                        <th
-                          class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
-                        >
+                        <th class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left">
                           Nombre del Combo
                         </th>
-                        <th
-                          class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
-                        >
+                        <th class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left">
                           Ventas
                         </th>
-                        <th
-                          class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
-                        >
+                        <th class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left">
                           Clientes
                         </th>
-                        <th
-                          class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
-                        >
+                        <th class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left">
                           Porcentaje de Ventas
                         </th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <th
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
-                        >
+                        <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left">
                           Chicken Fingers
                         </th>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                           4,569
                         </td>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                           340
                         </td>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                           <i class="fas fa-arrow-up text-green-500 mr-4"></i>
                           46,53%
                         </td>
                       </tr>
                       <tr>
-                        <th
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
-                        >
+                        <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left">
                           Chicken Fingers con Papas
                         </th>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                           3,985
                         </td>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                           319
                         </td>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                           <i class="fas fa-arrow-down text-orange-500 mr-4"></i>
                           46,53%
                         </td>
                       </tr>
                       <tr>
-                        <th
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
-                        >
+                        <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left">
                           Chicken Fingers con Papas y Refresco
                         </th>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                           3,513
                         </td>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                           294
                         </td>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                           <i class="fas fa-arrow-down text-orange-500 mr-4"></i>
                           36,49%
                         </td>
                       </tr>
                       <tr>
-                        <th
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
-                        >
+                        <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left">
                           Chicken Fingers con Papas Twist
                         </th>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                           2,050
                         </td>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                           147
                         </td>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                           <i class="fas fa-arrow-up text-green-500 mr-4"></i>
                           50,87%
                         </td>
                       </tr>
                       <tr>
-                        <th
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
-                        >
+                        <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left">
                           Chicken Fingers con Papas Twist y Refresco
                         </th>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                           1,795
                         </td>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                           190
                         </td>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                           <i class="fas fa-arrow-down text-red-500 mr-4"></i>
                           46,53%
                         </td>
@@ -1000,135 +1056,85 @@
               </div>
             </div>
             <div class="w-full lg:w-1/2 px-4">
-              <div
-                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded"
-              >
+              <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
                 <div class="rounded-t mb-0 px-4 py-3 border-0">
                   <div class="flex flex-wrap items-center">
-                    <div
-                      class="relative w-full px-4 max-w-full flex-grow flex-1"
-                    >
+                    <div class="relative w-full px-4 max-w-full flex-grow flex-1">
                       <h3 class="font-semibold text-base text-gray-800">
                         Redes Sociales
                       </h3>
                     </div>
-                    <div
-                      class="relative w-full px-4 max-w-full flex-grow flex-1 text-right"
-                    >
-                      <button
-                        class="bg-indigo-500 text-white active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                        type="button"
-                      >
+                    <div class="relative w-full px-4 max-w-full flex-grow flex-1 text-right">
+                      <button class="bg-indigo-500 text-white active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
                         Ver mas
                       </button>
                     </div>
                   </div>
                 </div>
                 <div class="block w-full overflow-x-auto">
-                  <!-- Projects table -->
-                  <table
-                    class="items-center w-full bg-transparent border-collapse"
-                  >
+                  <table class="items-center w-full bg-transparent border-collapse">
                     <thead class="thead-light">
                       <tr>
-                        <th
-                          class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
-                        >
+                        <th class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left">
                           Red Social
                         </th>
-                        <th
-                          class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
-                        >
+                        <th class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left">
                           Seguidores
                         </th>
-                        <th
-                          class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left min-w-140-px"
-                        ></th>
+                        <th class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left min-w-140-px">
+                       </th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <th
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
-                        >
+                        <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left">
                           Facebook
                         </th>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                           5,480
                         </td>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                           <div class="flex items-center">
                             <span class="mr-2">65%</span>
                             <div class="relative w-full">
-                              <div
-                                class="overflow-hidden h-2 text-xs flex rounded bg-green-200"
-                              >
-                                <div
-                                  style="width: 65%;"
-                                  class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"
-                                ></div>
+                              <div class="overflow-hidden h-2 text-xs flex rounded bg-green-200">
+                                <div style="width: 65%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"></div>
                               </div>
                             </div>
                           </div>
                         </td>
                       </tr>
                       <tr>
-                        <th
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
-                        >
+                        <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left">
                           Instagram
                         </th>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                           3,678
                         </td>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                           <div class="flex items-center">
                             <span class="mr-2">25%</span>
                             <div class="relative w-full">
-                              <div
-                                class="overflow-hidden h-2 text-xs flex rounded bg-blue-200"
-                              >
-                                <div
-                                  style="width: 25%;"
-                                  class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-500"
-                                ></div>
+                              <div class="overflow-hidden h-2 text-xs flex rounded bg-blue-200">
+                                <div style="width: 25%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-500"></div>
                               </div>
                             </div>
                           </div>
                         </td>
                       </tr>
                       <tr>
-                        <th
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
-                        >
+                        <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left">
                           Twitter
                         </th>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                           926
                         </td>
-                        <td
-                          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                        >
+                        <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4" >
                           <div class="flex items-center">
                             <span class="mr-2">10%</span>
                             <div class="relative w-full">
-                              <div
-                                class="overflow-hidden h-2 text-xs flex rounded bg-orange-200"
-                              >
-                                <div
-                                  style="width: 10%;"
-                                  class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"
-                                ></div>
+                              <div class="overflow-hidden h-2 text-xs flex rounded bg-orange-200">
+                                <div style="width: 10%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"></div>
                               </div>
                             </div>
                           </div>
@@ -1140,62 +1146,37 @@
               </div>
             </div>
           </div>
-
-
-
-
           <footer class="block py-4">
             <div class="container mx-auto px-4">
               <hr class="mb-4 border-b-1 border-gray-300" />
-              <div
-                class="flex flex-wrap items-center md:justify-between justify-center"
-              >
+              <div class="flex flex-wrap items-center md:justify-between justify-center">
                 <div class="w-full md:w-4/12 px-4">
-                  <div
-                    class="text-sm text-gray-600 font-semibold py-1 text-center md:text-left"
-                  >
+                  <div class="text-sm text-gray-600 font-semibold py-1 text-center md:text-left">
                     Copyright © <span id="get-current-year"></span>
-                    <a
-                      href="#PortalesWebII"
-                      class="text-gray-600 hover:text-gray-800 text-sm font-semibold py-1"
-                    >
+                    <a href="#PortalesWebII" class="text-gray-600 hover:text-gray-800 text-sm font-semibold py-1">
                      Desarrollo de Portales Web II
                     </a>
                   </div>
                 </div>
                 <div class="w-full md:w-8/12 px-4">
-                  <ul
-                    class="flex flex-wrap list-none md:justify-end justify-center"
-                  >
+                  <ul class="flex flex-wrap list-none md:justify-end justify-center">
                     <li>
-                      <a
-                        href="#Equipo1"
-                        class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
-                      >
+                      <a href="#Equipo1" class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3">
                         Don Papa
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="#DonPapa"
-                        class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
-                      >
+                      <a href="#DonPapa" class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3">
                         Nuestra Empresa
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="#DonPapa"
-                        class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
-                      >
+                      <a href="#DonPapa" class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3">
                         Locales
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="#DonPapa"
-                        class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
-                      >
+                      <a href="#DonPapa" class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3">
                         Pedidos
                       </a>
                     </li>
