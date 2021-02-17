@@ -1,5 +1,6 @@
 let flechitas = document.getElementsByName("chevron-back-outline");
 let listas = document.getElementsByClassName("lista");
+let marca = document.getElementsByClassName("abre");
 
  /* Make dynamic date appear */
  (function () {
@@ -251,9 +252,7 @@ let listas = document.getElementsByClassName("lista");
   function abrir(n1, n2){
     //si marca es mayor que, significa que está oculta la lista, sino, entonces está abierta la lista
 
-    switch(n1){
-      case 0:
-              if(marcas.length>0){
+              if(marca.length>0){
                 listas[n1].classList.add("cierra");
                 listas[n1].classList.remove("abre");
                 flechitas[n1].style.transition = "all 0.5s ease-in-out";
@@ -269,24 +268,5 @@ let listas = document.getElementsByClassName("lista");
                 listas[n1].style.transition = "all 1s ease-in-out";
                 listas[n1].style.display = "none";
               }
-              break;
-      case 1:
-              if(marcas.length>0){
-                listas[n1].classList.add("cierra");
-                listas[n1].classList.remove("abre");
-                flechitas[n1].style.transition = "all 0.5s ease-in-out";
-                flechitas[n1].style.transform = "rotate(-90deg) scale(1)";
-                listas[n1].style.transition = "all 1s ease-in-out";
-                listas[n1].style.display = "inline-flex";
-              }
-              else{
-                listas[n1].classList.add("abre");
-                listas[n1].classList.remove("cierra");
-                flechitas[n1].style.transition = "all 0.5s ease-in-out";
-                flechitas[n1].style.transform = "rotate(0deg) scale(1)";
-                listas[n1].style.transition = "all 1s ease-in-out";
-                listas[n1].style.display = "none";
-              }
-              break;
-    }
+
   }
